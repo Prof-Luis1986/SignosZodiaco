@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Signos Zodiacales</title>
+</head>
+<body>
+    <center>
+        <form name="formulario">
+            <fieldset>
+                <legend>Indica tu día y mes de nacimiento</legend>
+                <label>Día De Nacimiento</label>
+                <input type="number" name="dia" max="31" min="1" required="">
+                <label>Mes De nacimiento</label>
+                <input type="number" name="mes" max="12" min="1" required="">
+                <input type="button" value="¿Qué Signo eres?" onclick="zodiac()">
+                <br>
+                <img src="./horoscopos.jpg" id="imagenes" alt="Signos Zodiacales">
+            </fieldset>
+        </form>
+    </center>
+    <script src="script.js"></script>
+</body>
+</html>
